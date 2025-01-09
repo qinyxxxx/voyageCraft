@@ -1,0 +1,60 @@
+
+.profile-page {
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .login-button,
+  .register-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .register-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-button:hover {
+    background-color: #218838;
+  }
+  
+  .center-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .big-photo {
+    max-width: 150%;
+    max-height: 120%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
