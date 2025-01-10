@@ -12,7 +12,7 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
 
-    from app.api.user_api import user_api
+    from backend.app.api.user_api import user_api
     app.register_blueprint(user_api)
 
     return app

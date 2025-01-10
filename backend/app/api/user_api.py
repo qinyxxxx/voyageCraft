@@ -1,5 +1,5 @@
 from flask import jsonify, request
-from app.models import db, User
+from backend.app.models import db, User
 from . import user_api
 
 
