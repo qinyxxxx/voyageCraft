@@ -5,13 +5,13 @@ import "./App.css";
 import Profile from "./js/Profile";
 import Login from "./js/Login";
 import Signup from "./js/Signup";
-import MainPage from "./js/MainPage";
+import Home from "./component/Home";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<MainPage />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/profile" element={<Profile />} />
