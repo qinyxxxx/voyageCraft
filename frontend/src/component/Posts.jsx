@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./Header";
 
-const Home = () => {
+const Posts = () => {
   return (
-    <div className="MainPage">
+    <div className="posts">
       
       <Header />
 
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Posts;

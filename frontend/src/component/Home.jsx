@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const Home = () => {
   return (
-    <div className="MainPage">
+    <div className="Home">
       
       <Header />
 
