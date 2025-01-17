@@ -1,0 +1,69 @@
+/* AppBar Styling */
+.header-bar {
+  background-color: #f3f3f3; /* Matches general background */
+  color: #747965; /* Olive Gray for text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Toolbar Styling */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+  display: flex;
+  align-items: center;
+  /* cursor: pointer; */
+  gap: 10px;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Jersey 15", cursive;
+}
+
+/* Tabs Styling */
+.menu-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; /* Ensures the menu is centered */
+}
+
+.menu .MuiTab-root {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: none;
+  color: #747965; /* Olive Gray */
+}
+
+/* Buttons Styling */
+.auth-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.login-button {
+  color: #747965;
+  border-color: #747965;
+  text-transform: none;
+}
+
+.register-button {
+  background-color: #c2a78c;
+  color: white;
+  text-transform: none;
+}
+
+.register-button:hover {
+  background-color: #d1bda7;
+}
