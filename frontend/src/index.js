@@ -5,13 +5,13 @@ import "./App.css";
 import theme from "./js/theme";
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
+import { StyledEngineProvider } from "@mui/material/styles";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <StyledEngineProvider injectFirst>
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <App />
     </ThemeProvider>
-  </React.StrictMode>
+  </StyledEngineProvider>
 );
