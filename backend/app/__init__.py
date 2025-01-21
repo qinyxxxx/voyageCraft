@@ -15,5 +15,7 @@ def create_app():
 
     from backend.app.api.user_api import user_api
     app.register_blueprint(user_api)
+    from backend.app.api.post_api import post_api
+    app.register_blueprint(post_api)
 
     return app
