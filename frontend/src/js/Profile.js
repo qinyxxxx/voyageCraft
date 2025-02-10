@@ -90,7 +90,7 @@ function Profile() {
               <img src={profilePic} alt="Profile" />
               <span>My Profile</span>
             </li>
-            <li onClick={() => navigate("/settings")}>Settings</li>
+            <li onClick={() => navigate("/profile/settings")}>Settings</li>
           </ul>
         </nav>
       </aside>
