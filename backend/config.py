@@ -1,6 +1,8 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 class Config:
-    # SECRET_KEY = 'your_secret_key'
-    SQLALCHEMY_DATABASE_URI = 'mysql://root:eileen98@localhost/voyage_craft'
+    SECRET_KEY = os.getenv('SECRET_KEY', 'default_secret_key')
+    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
